@@ -1,17 +1,3 @@
-# from kivy.app import App
-# from kivy.uix.boxlayout import BoxLayout
-# from kivy.uix.button import Button
-# from kivy.uix.textinput import TextInput
-# from kivy.uix.label import Label
-#
-# class MainApp(App):
-#     def build(self):
-#         return Label(text='Hello')
-#
-# if __name__=="__main__":
-#     app = MainApp()
-#     app.run()
-
 import random
 
 wordsEN = ['BOX', 'TIGER', 'APPLE', 'WAGE', 'WAIT', 'WAKE', 'WALK', 'WALL', 'WANDER', 'WANT', 'WAR', 'WARM', 'WARN', 'WARNING', 'WASH', 'WASTE', 'WATCH', 'WATER', 'WAVE', 'WAY', 'WE', 'WEAK', 'WEALTH', 'WEALTHY', 'WEAPON', 'WEAR', 'WEATHER', 'WEDDING', 'WEEK', 'WEEKEND', 'WEEKLY', 'WEIGH', 'WEIGHT', 'WELCOME', 'WELFARE', 'WELL', 'WEST', 'WESTERN', 'WET', 'WHAT', 'WHATEVER', 'WHEEL', 'WHEN', 'WHENEVER', 'WHERE', 'WHEREAS', 'WHETHER', 'WHICH', 'WHILE', 'WHISPER', 'WHITE', 'WHO', 'WHOLE', 'WHOM', 'WHOSE', 'WHY', 'WIDE', 'WIDELY', 'WIDESPREAD', 'WIFE', 'WILD', 'WILL', 'WILLING', 'WIN', 'WIND', 'WINDOW', 'WINE', 'WING', 'WINNER', 'WINTER', 'WIPE', 'WIRE', 'WISDOM', 'WISE', 'WISH', 'WITH', 'WITHDRAW', 'WITHIN', 'WITHOUT', 'WITNESS', 'WOMAN', 'WONDER', 'WONDERFUL', 'WOOD', 'WOODEN', 'WORD', 'WORK', 'WORKER', 'WORKING', 'WORKS', 'WORKSHOP', 'WORLD', 'WORRIED', 'WORRY', 'WORTH', 'WOULD', 'WOULD', 'WOUND', 'WRAP', 'WRITE', 'WRITER', 'WRITING', 'WRONG', 'YARD', 'YEAH', 'YEAR', 'YELL', 'YELLOW', 'YES', 'YESTERDAY', 'YET', 'YIELD', 'YOU', 'YOUNG', 'YOUR', 'YOURS', 'YOURSELF', 'YOUTH', 'ZONE']
